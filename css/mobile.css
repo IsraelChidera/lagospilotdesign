@@ -1,0 +1,117 @@
+#nav_label_search {
+    display: none;
+}
+
+nav ul {
+    display: none;
+}
+
+.header-content-section h1 {
+    font-size: 2rem;
+}
+
+.form-label input {
+    padding: 10px;
+}
+
+/* main content 1 */
+#main-content-1 .section-header-content h1 {
+    font-size: 1.8rem;
+}
+
+#main-content-1 .section-header-content p {
+    padding-top: 3rem;
+}
+
+
+#main-content-1 section {
+    display: block;
+}
+
+main-content-1 .section-content-1 {
+    padding: 2rem;
+}
+
+#main-content-1 div {
+    margin: 0 auto;
+}
+
+
+/* section tour guide */
+.section-tour-guide-top {
+    display: block;
+}
+
+/* .swiper-slide {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+} */
+
+
+.swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.swiper-container {
+    height: 50vh;
+    width: 100%;
+}
+
+/* section-people-places  */
+#section-people-places .container-people-places .para-people {
+    font-size: 1rem;
+    text-align: center;
+}
+
+#section-people-places .container-people-places .headtag-people {
+    text-align: center;
+}
+
+#section-people-places .section-flex-places {
+    display: block;
+}
+
+.section-flex-places {
+    margin: 0 auto;
+}
+
+.star-rating-row {
+    display: block;
+}
+
+.flexed {
+    text-align: center;
+}
+
+/* image before footer */
+.img-info-container h1 {
+    font-size: 1.5rem;
+}
+
+.img-info-container a {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.color-img-info {
+    font-size: 4rem;
+}
+
+#section-what-footer .what-footer-container {
+    display: block;
+    padding: 0px;
+}
+
+.what-footer-container .section-offers p {
+    margin-bottom: 1rem;
+}
+
+.what-footer-container .section-offers h1 {
+    margin-bottom: 5px;
+}
+
+.what-footer-container #mail {
+    margin-bottom: 5px;
+}

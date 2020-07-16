@@ -1,0 +1,352 @@
+:root {
+    --primary-color: ;
+    --secondary-color: ;
+    --bg-color: ;
+}
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    color: #212529;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+/* header */
+header {
+    height: 50vh;
+}
+
+.header-content-section::before {
+    content: '';
+    background: url('../img/lagos-culture-img.jpg') no-repeat
+    center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 50vh;
+    opacity: 0.9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: white;
+    padding: 1rem;
+}
+
+nav p {
+    text-transform: uppercase;
+    text-shadow: aqua;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    padding: 0.7rem;
+    color: rgba(0,0,0,0.5);
+}
+
+nav ul li a.current {
+    color: rgb(0,0,0);
+} 
+
+nav ul li a:hover {
+    color: rgb(0,0,0);
+}
+
+#nav_label_search label {
+    position: absolute;
+}
+
+#nav_label_search input {
+    padding: 4px 8px 4px 32px;
+}
+
+#nav_label_search label .fa-search:before {
+    content: "\f002";
+    padding-left: 0.8rem;
+}
+
+header .header-content-section {
+    margin: 4rem 0;
+    padding-left: 2rem;
+}
+
+.header-content-section h2 {
+    text-transform: uppercase;
+    color: brown;
+    text-shadow: 4px 4px 4px #000;
+    letter-spacing: 0.6rem;
+    font-weight: bold;
+}
+
+.header-content-section h1 {
+    font-weight: 700;
+    text-shadow: 2px 2px 2px rgba(90, 82, 82, 0.5);
+    margin-bottom: 0.8rem;
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+.fa-user {
+    color: #46eef8;
+}
+
+/* About Us */
+#About-Lagos-Pilot {
+    margin-top: 2rem;
+    background: #e9ecef;
+    padding-bottom: 3rem;
+}
+
+#About-Lagos-Pilot .container-about-us {
+    max-width: 1100px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.8;
+    margin: 0 auto;
+}
+
+#About-Lagos-Pilot .container-about-us h1 {
+    font-size: 4.2rem;
+    padding-top: 2rem;
+}
+
+#About-Lagos-Pilot .container-about-us p {
+    padding-bottom: 2rem;
+}
+
+.container-about-us .btn {
+    color: white;
+    padding: 1.5rem;
+    background: #334;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.container-about-us .btn:hover {
+    color: black;
+    background: teal;
+    transition: all ease-in 1s;
+}
+
+.container-about-us .btn .fa-play {
+    color: red;
+}
+
+/* about the team */
+#about-the-team {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#about-the-team .container-about-team {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-about-team .row-flow {
+    width: 100%;
+    background: url('../img/lagos-culture-img.jpg') no-repeat
+    center center/cover;
+    height: 50vh;
+    margin: 1rem;
+    position: relative;
+    border-radius: 10px;
+}
+
+.row-flow .team-row {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+}
+
+.row-flow .team-row:hover {
+    color: #334;
+}
+
+/* contact us */
+#section-contact-us {
+    margin-top: 3rem;
+}
+
+#section-contact-us .bg-contact-us {
+    background: url('../img/abuja-city-img.jpg') 
+    no-repeat center center/cover;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.bg-contact-us .flex-contact-us {
+    font-weight: 700;
+}
+
+.bg-contact-us .flex-contact-us + a {
+    padding: 10px;
+    background: white;
+    color: teal;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.bg-contact-us .flex-contact-us + a:hover {
+    background: teal;
+    color: white;
+    transition: all ease-in 1s;
+}
+
+.bg-contact-us .flex-contact-us h1 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(90, 82, 82, 0.5);
+    font-size: 2rem;
+    color: white;
+}
+
+.bg-contact-us .flex-contact-us p {
+    text-shadow: 2px 2px 2px rgba(90, 82, 82, 0.5);
+    font-size: 1.8rem;
+    color: white;
+}
+
+/* #section-what-footer  */
+#section-what-footer {
+    background: #e9ecef;
+}
+
+#section-what-footer .what-footer-container {
+    display: flex;
+    width: 1200px;
+    padding: 2rem;
+}
+
+#section-what-footer .what-footer-container > div {
+    padding: 2rem;
+}
+
+.what-footer-container .section-footer-link-details h1 {
+    color: #334;
+    font-size: 2rem;
+}
+
+.what-footer-container .section-footer-link-details p,
+.what-footer-container .section-footer-link-details > div {
+    line-height: 2.0;
+    color: #868e96;
+}
+
+.section-footer-link-details > div a {
+    color: #868e96;
+}
+
+.section-footer-link-details > div a:hover {
+    color: #334;
+}
+
+.what-footer-container .footer-links h1 {
+    color: #334;
+}
+
+.what-footer-container .footer-links ul li a {
+    color: #868e96;
+}
+
+.what-footer-container .footer-links ul li a:hover {
+    color: #334;
+}
+
+.what-footer-container .footer-links-2 h1 {
+    color: #334;
+}
+
+.what-footer-container .footer-links-2 ul li a {
+    color: #868e96;
+}
+
+.what-footer-container .footer-links-2 ul li a:hover {
+    color: #334;
+}
+
+.what-footer-container .section-offers h1 {
+    color: #334;
+    font-size: 2.4rem;
+}
+
+.what-footer-container .section-offers p {
+    color: #868e96;
+    margin-bottom: 5px;
+}
+
+.what-footer-container #mail {
+    padding: 8px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+
+.section-offers button {
+    padding: 8px;
+}
+
+.section-offers button a {
+    color: brown;
+}
+
+.section-offers button a:hover {
+    opacity: 0.6;
+}
+
+footer {
+    text-align: center;
+    background: #343a40;
+    color: #dee2e6;
+    padding: 1.5rem;
+    font-size: 18px;
+    z-index: -1;
+}
+

@@ -1,0 +1,474 @@
+:root {
+    --primary-color: ;
+    --secondary-color: ;
+    --bg-color: ;
+}
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    color: #212529;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+/* header */
+header {
+    height: 120vh;
+}
+
+.header-content-section::before {
+    content: '';
+    background: url('../img/lagos-culture-img.jpg') no-repeat
+    center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 120%;
+    opacity: 0.9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: white;
+    padding: 1rem;
+}
+
+nav p {
+    text-transform: uppercase;
+    text-shadow: aqua;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    padding: 0.7rem;
+    color: rgba(0,0,0,0.5);
+}
+
+nav ul li a.current {
+    color: rgb(0,0,0);
+} 
+
+nav ul li a:hover {
+    color: rgb(0,0,0);
+}
+
+#nav_label_search label {
+    position: absolute;
+}
+
+#nav_label_search input {
+    padding: 4px 8px 4px 32px;
+}
+
+#nav_label_search label .fa-search:before {
+    content: "\f002";
+    padding-left: 0.8rem;
+}
+
+header .header-content-section {
+    margin: 12rem 0;
+    padding-left: 2rem;
+}
+
+.header-content-section h2 {
+    text-transform: uppercase;
+    color: brown;
+    text-shadow: 4px 4px 4px #000;
+    letter-spacing: 0.6rem;
+    font-weight: bold;
+}
+
+.header-content-section h1 {
+    font-weight: 700;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    margin-bottom: 0.8rem;
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+.form-label {
+    display: flex;
+}
+
+.form-label input {
+    width: 100%;
+    border-radius: 10rem;
+    width: 70%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #495057;
+}
+
+.form-label input:focus {
+   outline: none; 
+}
+
+.form-label button {
+    display: block;
+    text-align: left;
+    border-radius: 5px;
+    padding: 14px;
+}
+
+.form-label button a {
+    color: black;
+}
+
+.form-label button a:hover {
+    color: #334;
+}
+
+.form-label button i {
+    font-size: 2em;
+}
+
+/* main content */
+#main-content-1 section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -2rem;
+}
+
+#main-content-1 {
+    background: #f8f9fa;
+    padding-top: 2rem;
+}
+
+#main-content-1 .section-content-1 {
+    padding: 3rem;
+}
+
+#main-content-1 div {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+#main-content-1 .section-header-content p {
+    letter-spacing: 2px;
+    color: brown;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#main-content-1 .section-header-content h1 {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.fa-map-marker-alt .fa-map-signs .fa-map {
+    display: inline-block;
+    background: #eaedfe;
+}
+
+#main-content-1 .section-content-1 p {
+    color: #868e98;
+    font-size: 1.2rem;
+}
+
+/* Tour guide section */
+#tour-guide{
+    margin-top: 3rem;
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    margin: 2rem auto;
+}
+
+.section-tour-guide-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.section-tour-guide-top .tour-guide-top p {
+    color: brown;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #334;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-tour-guide-top .tour-guide-top h2 {
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.section-tour-guide-top  .more-tour-arrow a {
+    color: #868e96;
+}
+
+.section-tour-guide-top  .more-tour-arrow a:hover {
+    text-decoration: underline;
+} 
+
+.swiper-container {
+    height: 50vh;
+    max-width: 900px;
+    padding: 2rem;
+}
+
+.swiper-slide {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 2rem;
+}
+
+/* section-people-places  */
+.container-people-places {
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding-top: 3rem;
+}
+
+#section-people-places {
+    background: #f8f9fa;
+}
+
+#section-people-places .section-flex-places {
+    display: flex;
+}
+
+.flexed {
+    margin: 2rem;
+    margin-bottom: 2rem;
+}
+
+.flexed h1, .flexed p {
+    padding: 5px;
+}
+
+.restaurant, .malls, .resort{
+    background: #fff;
+    border-radius: 10px;;
+}
+
+.flexed img {
+    max-width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.fa-star {
+    color: goldenrod;
+}
+
+.flexed h1 {
+    color: #343a40;
+}
+
+.star-rating-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.star-rating-row p {
+    color: #868e96;
+    font-size: 14px;
+}
+
+.flexed-price {
+    color: #46eef8;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#section-people-places .container-people-places .para-people {
+    letter-spacing: 2px;
+    color: brown;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#section-people-places .container-people-places .headtag-people {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+/* img-info */
+#img-info {
+    position: relative;
+    background: url('../img/abuja-city-img.jpg') no-repeat
+    center center/cover;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.img-info-container {
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+}
+
+.img-info-container h1 {
+    font-size: 4.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px #334;
+}
+
+.img-info-container a {
+    color: #334;
+    font-weight: 600;
+    padding: 1rem;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.img-info-container a:hover {
+    transition: all ease-in 1s;
+    background: #46eef8;
+}
+
+.color-img-info {
+    color: #46eef8;
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+
+/* #section-what-footer  */
+#section-what-footer {
+    background: #e9ecef;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+#section-what-footer .what-footer-container {
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+}
+
+#section-what-footer .what-footer-container > div {
+    padding: 2rem;
+}
+
+.what-footer-container .section-footer-link-details h1 {
+    color: #334;
+    font-size: 2rem;
+}
+
+.what-footer-container .section-footer-link-details p,
+.what-footer-container .section-footer-link-details > div {
+    line-height: 2.0;
+    color: #868e96;
+}
+
+.section-footer-link-details > div a {
+    color: #868e96;
+}
+
+.section-footer-link-details > div a:hover {
+    color: #334;
+}
+
+.what-footer-container .footer-links h1 {
+    color: #334;
+}
+
+.what-footer-container .footer-links ul li a {
+    color: #868e96;
+}
+
+.what-footer-container .footer-links ul li a:hover {
+    color: #334;
+}
+
+.what-footer-container .footer-links-2 h1 {
+    color: #334;
+}
+
+.what-footer-container .footer-links-2 ul li a {
+    color: #868e96;
+}
+
+.what-footer-container .footer-links-2 ul li a:hover {
+    color: #334;
+}
+
+.what-footer-container .section-offers h1 {
+    color: #334;
+    font-size: 2.4rem;
+}
+
+.what-footer-container .section-offers p {
+    color: #868e96;
+    margin-bottom: 5px;
+}
+
+.what-footer-container #mail {
+    padding: 8px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+
+.section-offers button {
+    padding: 8px;
+}
+
+.section-offers button a {
+    color: brown;
+}
+
+.section-offers button a:hover {
+    opacity: 0.6;
+}
+
+footer {
+    text-align: center;
+    background: #343a40;
+    color: #dee2e6;
+    padding: 1.5rem;
+    font-size: 18px;
+}
