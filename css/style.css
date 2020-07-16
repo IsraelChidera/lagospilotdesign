@@ -472,3 +472,43 @@ footer {
     padding: 1.5rem;
     font-size: 18px;
 }
+
+@media (min-width: 761px) and (max-width: 1000px) {
+    nav ul {
+        display: none;
+    }
+
+    #nav_label_search {
+        display: none;
+    }
+
+    header .header-content-section {
+        margin-top: 20rem 0;
+    }
+
+    #main-content-1 section {
+        display: block;
+    }
+    #main-content-1 .section-content-1 {
+        padding: 1rem;
+    }
+    #section-people-places .section-flex-places {
+        display: flex;
+    }
+    .flexed img {
+        max-width: 200px;
+        height: 300px;
+    }
+    .star-rating-row {
+        display: block;
+    }
+    .star-rating-row p {
+        font-size: 15px;
+    }
+    #section-what-footer .what-footer-container {
+        display: flex;
+        padding: 0rem;
+        width: 100%;
+    }
+
+}
