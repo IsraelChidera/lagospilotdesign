@@ -105,6 +105,10 @@ body{
     font-size: 18px;
 }
 
+.container-flex .item img {
+    border-radius: 1rem;
+}
+
 #form-sign-in div input[type=button] {
     color: aliceblue;
     background: teal; 
@@ -113,4 +117,16 @@ body{
 
 .special2 {
     text-align: center;
+}
+
+@media (min-width: 761px) and (max-width: 1000px) {
+    .container-flex .item img{
+        border-radius: 1rem;
+    }
+
+    .container-sign-in #form-sign-in {
+        margin: 0rem auto;
+        max-width: 25rem;
+        padding: 2rem;
+    }
 }

@@ -490,7 +490,8 @@ footer {
         display: block;
     }
     #main-content-1 .section-content-1 {
-        padding: 1rem;
+        padding: 5rem;
+        margin-top: -3rem;
     }
     #section-people-places .section-flex-places {
         display: flex;
@@ -510,5 +511,5 @@ footer {
         padding: 0rem;
         width: 100%;
     }
-
+    
 }

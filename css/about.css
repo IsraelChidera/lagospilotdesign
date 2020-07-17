@@ -128,7 +128,7 @@ header .header-content-section {
 
 /* About Us */
 #About-Lagos-Pilot {
-    margin-top: 2rem;
+    margin-top: 0rem;
     background: #e9ecef;
     padding-bottom: 3rem;
 }
@@ -183,14 +183,33 @@ header .header-content-section {
     justify-content: center;
 }
 
-.container-about-team .row-flow {
+.container-about-team .row-flow,
+.container-about-team .row-1 {
     width: 100%;
-    background: url('../img/lagos-culture-img.jpg') no-repeat
-    center center/cover;
     height: 50vh;
     margin: 1rem;
     position: relative;
     border-radius: 10px;
+}
+
+.container-about-team .row-1 {
+    background: url('../img/lagos-culture-img.jpg') no-repeat
+    center center/cover;
+}
+
+.container-about-team .row-2 {
+    background: url('../img/abuja-city-img.jpg') no-repeat
+    center center/cover;
+}
+
+.container-about-team .row-3 {
+    background: url('../img/city-img.jpg') no-repeat
+    center center/cover;
+}
+
+.container-about-team .row-4 {
+    background: url('../img/lagos-culture-img.jpg') no-repeat
+    center center/cover;
 }
 
 .row-flow .team-row {
@@ -204,6 +223,12 @@ header .header-content-section {
 
 .row-flow .team-row:hover {
     color: #334;
+}
+
+#about-the-team .heading-about-team {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700px;
 }
 
 /* contact us */
@@ -263,6 +288,7 @@ header .header-content-section {
     display: flex;
     width: 1200px;
     padding: 2rem;
+    width: 100%;
 }
 
 #section-what-footer .what-footer-container > div {
@@ -348,5 +374,30 @@ footer {
     padding: 1.5rem;
     font-size: 18px;
     z-index: -1;
+}
+
+@media (min-width: 761px) and (max-width: 1000px) {
+    header {
+        height: 30vh;
+    }
+    #About-Lagos-Pilot .container-about-us p {
+        padding: 2rem;
+    }
+    #section-what-footer .what-footer-container {
+        display: block;
+        width: 100%;
+        padding: 2rem;
+    }
+
+    #about-the-team .container-about-team {
+        display: block;
+        padding: 5rem;
+    }
+
+    .container-about-team .row-flow, .container-about-team .row-1 {
+        margin: 1.3rem;
+    }
+
+    
 }
 

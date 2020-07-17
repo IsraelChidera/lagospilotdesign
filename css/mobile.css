@@ -115,3 +115,83 @@ nav ul {
 .what-footer-container #mail {
     margin-bottom: 5px;
 }
+
+/* contact styling */
+#about-the-team .container-about-team {
+    display: block;
+    padding: 2rem;
+}
+
+.container-about-team .row-flow {
+    margin: 0rem;
+    margin-bottom: 2rem;
+}
+
+#section-contact-us .bg-contact-us {
+    display: block;
+    padding: 3rem;
+}
+
+.bg-contact-us .flex-contact-us {
+    padding-bottom: 0.8rem;
+}
+
+.bg-contact-us .flex-contact-us p {
+    font-size: 1rem;
+}
+
+#section-what-footer .what-footer-container {
+    display: block;
+    width: 100%;
+}
+
+#About-Lagos-Pilot .container-about-us p {
+    padding: 2rem;
+}
+
+#About-Lagos-Pilot .container-about-us h1 {
+    font-size: 3.2rem;
+    padding-bottom: 0rem;
+}
+
+#contact-us .container-contact-us h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#contact-us .container-contact-us p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+#message form {
+    max-width: 400px;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+/* sign in */
+.container-flex .item img{
+    display: none;
+}
+
+#sign-in .container-flex {
+    display: block;
+}
+
+.container-flex .item img {
+    border-radius: 1rem;
+}
+
+.container-sign-in #form-sign-in {
+    margin: 0rem auto;
+    max-width: 25rem;
+    padding: 2rem;
+}
+
+.special2 {
+    text-align: center;
+    padding-left: 2rem;
+}
