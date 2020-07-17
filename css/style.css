@@ -507,9 +507,15 @@ footer {
         font-size: 15px;
     }
     #section-what-footer .what-footer-container {
-        display: flex;
+        display: block;
         padding: 0rem;
         width: 100%;
+    }
+
+    #main-content-1 {
+        background: #f8f9fa;
+        padding-top: 2rem;
+        margin-top: -2rem;
     }
     
 }
