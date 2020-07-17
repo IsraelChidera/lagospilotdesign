@@ -14,6 +14,17 @@ nav ul {
     padding: 10px;
 }
 
+/* .header-content-section {
+    position: relative; 
+} */
+
+.header-content-section div {
+    position: relative;
+    top: 10rem;
+    padding: 10px;
+    /* left: 10px; */
+}
+
 /* main content 1 */
 #main-content-1 .section-header-content h1 {
     font-size: 1.8rem;
@@ -41,14 +52,6 @@ nav ul {
 .section-tour-guide-top {
     display: block;
 }
-
-/* .swiper-slide {
-    background: white;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-} */
-
 
 .swiper-wrapper {
     display: flex;
