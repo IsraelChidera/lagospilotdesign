@@ -4,6 +4,15 @@
     --bg-color: ;
 }
 
+/* hamburger */
+.btn-close {
+    display: none;
+}
+
+.ham-click {
+    display: none;
+}
+
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
@@ -576,7 +585,7 @@ footer {
     }
 
     .footer-margin {
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 
     #section-what-footer .what-footer-container {
