@@ -244,6 +244,11 @@ nav {
     padding: 2rem;
 }
 
+.container-sign-in {
+    width: 100%;
+    height: auto;
+}
+
 .special2 {
     text-align: center;
     padding-left: 2rem;
