@@ -110,11 +110,6 @@ nav ul li a:hover {
     padding-left: 0.8rem;
 }
 
-/* header .header-content-section {
-    margin: 12rem 0;
-    padding-left: 2rem;
-} */
-
 .header-content-section div{
     position: relative;
     top: 20rem;
@@ -490,8 +485,67 @@ footer {
 }
 
 @media (min-width: 761px) and (max-width: 1000px) {
+    
+    /*hamburger*/
+    nav {
+        position: relative;
+    }
+
+    .side-nav {
+        height: 100vh;
+        width: 0vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        background: rgba(0,0,0,0.5);
+        opacity: 0.9;
+        overflow-x: hidden;
+        padding-top: 7rem;
+        transition: 0.5s;
+        display: block;
+    }
+
+    .side-nav a {
+        padding: 10px 10px 10px 30px;
+        display: block;
+        font-size: 22px;
+        color: #ccc;
+        transition: 0.3s;
+    }
+
+    .side-nav .btn-close {
+        position: absolute;
+        top: 0;
+        left : 22px;
+        font-size: 50px;
+        margin-left: 50px;
+        color: #fff;
+    }
+
+    .btn-close {
+        display: block;
+    }
+
+    .ham-click {
+        display: block;
+    }
+
+    #nav_label_search {
+        display: none;
+    }
+
     nav ul {
         display: none;
+    }
+
+    .ham-click .fa-bars {
+        font-size: 1.2em;
+        color: teal;
+    }
+    
+    .btn-close {
+        color: #334;
     }
 
     #nav_label_search {

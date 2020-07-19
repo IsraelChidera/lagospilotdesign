@@ -22,8 +22,8 @@
                 <input type="search" name="search"
                 placeholder="Search" id="header_search">
             </div>
-            <ul>
-                
+            <ul id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
                 <li>
                     <a href="index.html">Home</a>
                 </li>
@@ -40,6 +40,9 @@
                     <a href="sign-up.html">Sign Up</a>
                 </li>
             </ul>
+            <a href="#" class="ham-click" onclick="openSlideMenu()">
+                <i class="fas fa-bars fa-2x"></i>
+            </a>
         </nav>
         
         <section class="header-content-section">
@@ -164,5 +167,9 @@
     <footer>
         <p>&copy; 2020, Best Tour Guide. All right reserved</p>
     </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

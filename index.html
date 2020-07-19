@@ -41,11 +41,9 @@
                     <a href="sign-up.html">Sign Up</a>
                 </li> 
             </ul>
-            
             <a href="#" class="ham-click" onclick="openSlideMenu()">
                 <i class="fas fa-bars fa-2x"></i>
             </a>
-            
         </nav>
         
         <section class="header-content-section">
@@ -282,25 +280,6 @@
 
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-
-    function openSlideMenu() {
-            document.getElementById('side-menu').style.width = '250px';
-            // document.getElementById('main').style.margin = '150px';
-        }
-
-    function closeSlideMenu() {
-            document.getElementById('side-menu').style.width = '0';
-            // document.getElementById('main').style.margin = 'auto';
-        }
-    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>
