@@ -73,7 +73,7 @@ body{
 
 .container-sign-in #form-sign-in {
     margin: 4rem auto;
-    width: 25rem;
+    max-width: 25rem;
 }
 
 .container-flex .item img {
